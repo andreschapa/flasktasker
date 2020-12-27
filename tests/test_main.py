@@ -15,7 +15,7 @@ class MainTests(unittest.TestCase):
     ############################
 
     # executed prior to each test
-     def setUp(self):
+    def setUp(self):
         app.config['TESTING'] = True
         app.config['WTF_CSRF_ENABLED'] = False
         app.config['DEBUG'] = False
@@ -61,6 +61,11 @@ class MainTests(unittest.TestCase):
             self.assertEquals(response.status_code, 500)
         except ValueError:
             pass
+    
+    def test_index(self):
+        """Ensure flask was set up correctly. """
+        response=self.app.get('/', content_type='html/text')
+        self.assertEqual(response.status_code, 200)
 
 if __name__ == "__main__":
     unittest.main()
