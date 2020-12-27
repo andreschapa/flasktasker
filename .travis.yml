@@ -13,5 +13,7 @@ deploy:
     secure: lhjBUHxB1B3qJovujIXP4pJf9eYMevUiXgwZVrBMn1UUyPwk2yU/scVkL+BPXUSxV4eV+tdYWiKzqXKs4E+TuIRhcbNmn4VysTtWXdNXi6lN0WQeLypVop9Zq3ggt0H22IVrgFRrNsFHrHGyhZePyFVgggZ2u7OAKYhTslxr8xYJO9T9BZtWBNZy5TgqXJYTRE1hV48HJSWm7UMVM0C8sAmNMoJylRSBm0KbD8HMIdLf4ZPmwRYLyhzOc+fu1/1z9I2Gyc+rL9GsD4PfMaws5JznVK7ZmRVfroPTKmRtQQLPqXosTVf8bQlWAwu6aTA+iAwJCERA827yFLe2a+A+S4MFnyaGwtV40aBA3Z2I7AESnHV07lu7fHhP2rOenWcjPPiAog1QVn0OAEhtmQLlHGCxEGQPcOFw4Rq/1dh026c6qTFdHkp7Asd9/ClL9NyHrBXamlptPFRZpWbc1ZxPWiu5ZJnUuOBxzJvqJGx9VUnEn/44TF1VTb4K2bTYAj8i+Seu2bYp53ssvHQXSaqMTmIW5YxzSxneavD3oevJe6eU8DY+7laA8WDzcEM7qzyjeFJMRrWEQn0g7m5Yni82PhhekWW0VXlXm683brjJmEFBdGq3/lhSQZvSlWekZR5I/KbvWzDlmk9e4iOCPSS3FllgpOcHlX/1bGocVehC1pI=
   app: flasktasker
   on:
+    branch: master
+    python: '3.6'
     repo: andreschapa/flasktasker
   skip_cleanup: 'true'
